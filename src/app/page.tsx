@@ -25,17 +25,16 @@ export default function MusicPage() {
   return (
     <>
       <div className="hidden md:block">
-          <Menu />
+          <Menu/>
           <div className="border-t">
               <div className="bg-background">
                   <div className="grid lg:grid-cols-5">
                       <div className="col-span-3 lg:col-span-4 lg:border-l">
                           <div className="h-full px-4 py-6 lg:px-8">
                               <div className="flex">
-                                  <Sidebar playlists={playlists} className="w-1/5" />
-                                  <div className="ml-4 flex-grow">
+                                  <Sidebar playlists={playlists} className="w-64" />
+                                  <div className="flex-grow">
                                       <Tabs defaultValue="music" className="h-full space-y-6">
-
                                           <div className="space-between flex items-center">
                                               <TabsList>
                                                   <TabsTrigger value="music" className="relative">
@@ -111,9 +110,7 @@ export default function MusicPage() {
                                           </TabsContent>
                                       </Tabs>
                                   </div>
-
                               </div>
-
                           </div>
                       </div>
                   </div>
