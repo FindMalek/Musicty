@@ -7,7 +7,11 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { AlbumArtwork } from "./components/album-artwork"
 import { Menu } from "./components/menu"
 import { PodcastEmptyPlaceholder } from "./components/podcast-empty-placeholder"
+<<<<<<< HEAD
 import { Sidebar } from "C:\Users\nassi\OneDrive\Bureau\Musicty\Musicty\components"
+=======
+import { Sidebar } from "./components/sidebar"
+>>>>>>> 1602c73197ffd702948cc96e02a5287a70f277f6
 import { listenNowAlbums, madeForYouAlbums } from "./data/albums"
 import { playlists } from "./data/playlists"
 import "./styles.css"
